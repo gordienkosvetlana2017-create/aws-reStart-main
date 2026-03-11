@@ -18,3 +18,4 @@ This repository demonstrates practical experience with AWS EC2. The following ta
 * **Clean Up:** Disabled protection and successfully terminated the EC2 instance.
 <img width="297" height="180" alt="Screenshot 2026-03-11 at 13 58 34" src="https://github.com/user-attachments/assets/53b16932-c050-4ac4-a545-ce5813add556" />
 
+In this project, I deployed an Apache web server on an Amazon EC2 instance. I automated the server setup using a User Data bash script and enhanced security by disabling SSH access, deploying the instance within a custom VPC, and enabling Termination Protection. Finally, I monitored the instance's health and performance using Amazon CloudWatch and EC2 status checks, and tested the remote screenshot feature for troubleshooting.
