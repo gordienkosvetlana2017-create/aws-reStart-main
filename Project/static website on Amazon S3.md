@@ -11,17 +11,21 @@ We used AI prompts to generate the HTML files and images, creating specific sect
 ## Technical Implementation 
 ### 1. Bucket Configuration
  I created an S3 bucket named keto-life-cafe in the us-west-2 (Oregon) region.
+ 
 <img width="500" height="324" alt="image4" src="https://github.com/user-attachments/assets/347d2d62-a8c8-4768-8803-865f7e6577a0" />
+
 <img width="500" height="324" alt="image11" src="https://github.com/user-attachments/assets/32f64527-a8c4-4f34-8fd7-8df4413727da" />
 
   
 ### 2. Static Website Hosting
 I enabled Static website hosting via the Properties tab. I set The Index document to index.html and the Error document to error.html.
+
 <img width="500" height="324" alt="image2" src="https://github.com/user-attachments/assets/e86e8980-d3de-47b2-b22e-916d55463de2" />
 
    
 ### 3. Permissions and Public Access
    I disabled the Block all public access setting to allow external access to the site.
+   
    <img width="500" height="324" alt="image7" src="https://github.com/user-attachments/assets/75cf8c7e-cdb3-4f57-9df6-b18dc3883e8d" />
 
    I applied a Bucket Policy to grant s3:GetObject permissions to all users:
@@ -29,6 +33,7 @@ I enabled Static website hosting via the Properties tab. I set The Index documen
 <img width="500" height="324" alt="image10" src="https://github.com/user-attachments/assets/305e5e72-1d76-4de1-bc07-d85a650d5676" />
 
 I checked website, it was not working.
+
 <img width="500" height="324" alt="image1" src="https://github.com/user-attachments/assets/90197b39-a8fa-464c-8a07-74508fd45d49" />
 
 <img width="500" height="324" alt="image3" src="https://github.com/user-attachments/assets/58358797-48f7-41a8-bacc-662c186ac03f" />
@@ -36,9 +41,11 @@ I checked website, it was not working.
 ### 4. Troubleshooting 
 
 Initially, the site returned a 404 Not Found error. This happened because the files were not uploaded on site. 
+
 <img width="500" height="324" alt="image8" src="https://github.com/user-attachments/assets/a7502c34-e5ee-4ac6-afbf-06cd4e4a2ec9" />
 
 I added the objects to the root directory, the website became fully functional.
+
 <img width="500" height="324" alt="image6" src="https://github.com/user-attachments/assets/41c50e39-105a-4d45-8946-e6dbd6b4dc1d" />
 
 Final Result The KetoLife Café website is now live and accessible through the S3 website endpoint.
