@@ -11,6 +11,10 @@ We used AI prompts to generate the HTML files and images, creating specific sect
 ## Technical Implementation 
 ### 1. Bucket Configuration
  I created an S3 bucket named keto-life-cafe in the us-west-2 (Oregon) region.
+ <img width="1999" height="1295" alt="image1" src="https://github.com/user-attachments/assets/da9b3415-b0bc-437f-a2cb-f3b467fcc232" />
+ <img width="1999" height="1295" alt="image2" src="https://github.com/user-attachments/assets/93f1546c-196e-48ff-a78a-4d3e6d9ae7f5" />
+
+
    
 ### 2. Static Website Hosting
 I enabled Static website hosting via the Properties tab. I set The Index document to index.html and the Error document to error.html.
